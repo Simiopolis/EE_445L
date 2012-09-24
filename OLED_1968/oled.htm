@@ -1,9 +1,9 @@
 <!doctype html public "-//w3c//dtd html 4.0 transitional//en">
 <html><head>
-<title>Static Call Graph - [C:\Users\FDukes\Desktop\FWare\OLED_1968\oled.axf]</title></head>
+<title>Static Call Graph - [C:\Users\Kevin\Documents\GitHub\EE_445L\OLED_1968\oled.axf]</title></head>
 <body><HR>
-<H1>Static Call Graph for image C:\Users\FDukes\Desktop\FWare\OLED_1968\oled.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 4.1 [Build 894]: Last Updated: Sun Sep 23 18:55:18 2012
+<H1>Static Call Graph for image C:\Users\Kevin\Documents\GitHub\EE_445L\OLED_1968\oled.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 4.1 [Build 791]: Last Updated: Sun Sep 23 19:06:45 2012
 <BR><P>
 <H3>Maximum Stack Usage =         72 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -349,7 +349,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> entry8.o(.ARM.Collect$$$$00000009)
 </UL>
-<P><STRONG><a name="[42]"></a>RIT128x96x4Clear</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, rit128x96x4.o(.text))
+<P><STRONG><a name="[42]"></a>RIT128x96x4Clear</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, rit128x96x4.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = RIT128x96x4Clear &rArr; RITWriteData
 </UL>
 <BR>[Calls]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RITWriteData
@@ -359,12 +359,12 @@ Global Symbols
 <LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[48]"></a>RIT128x96x4StringDraw</STRONG> (Thumb, 218 bytes, Stack size 32 bytes, rit128x96x4.o(.text), UNUSED)
+<P><STRONG><a name="[48]"></a>RIT128x96x4StringDraw</STRONG> (Thumb, 254 bytes, Stack size 32 bytes, rit128x96x4.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RITWriteData
 <LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RITWriteCommand
 </UL>
 
-<P><STRONG><a name="[49]"></a>RIT128x96x4ImageDraw</STRONG> (Thumb, 106 bytes, Stack size 24 bytes, rit128x96x4.o(.text))
+<P><STRONG><a name="[49]"></a>RIT128x96x4ImageDraw</STRONG> (Thumb, 120 bytes, Stack size 24 bytes, rit128x96x4.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = RIT128x96x4ImageDraw &rArr; RITWriteData
 </UL>
 <BR>[Calls]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RITWriteData
@@ -374,7 +374,7 @@ Global Symbols
 <LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DrawClock
 </UL>
 
-<P><STRONG><a name="[4a]"></a>RIT128x96x4Enable</STRONG> (Thumb, 90 bytes, Stack size 24 bytes, rit128x96x4.o(.text))
+<P><STRONG><a name="[4a]"></a>RIT128x96x4Enable</STRONG> (Thumb, 92 bytes, Stack size 24 bytes, rit128x96x4.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = RIT128x96x4Enable &rArr; GPIOPinTypeSSI
 </UL>
 <BR>[Calls]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysCtlClockGet
@@ -387,7 +387,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RIT128x96x4Init
 </UL>
 
-<P><STRONG><a name="[51]"></a>RIT128x96x4Disable</STRONG> (Thumb, 84 bytes, Stack size 8 bytes, rit128x96x4.o(.text), UNUSED)
+<P><STRONG><a name="[51]"></a>RIT128x96x4Disable</STRONG> (Thumb, 86 bytes, Stack size 8 bytes, rit128x96x4.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSIDisable
 <LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSIDataGetNonBlocking
 <LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIOPinWrite
@@ -395,7 +395,7 @@ Global Symbols
 <LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIOPadConfigSet
 </UL>
 
-<P><STRONG><a name="[40]"></a>RIT128x96x4Init</STRONG> (Thumb, 146 bytes, Stack size 16 bytes, rit128x96x4.o(.text))
+<P><STRONG><a name="[40]"></a>RIT128x96x4Init</STRONG> (Thumb, 196 bytes, Stack size 16 bytes, rit128x96x4.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = RIT128x96x4Init &rArr; RIT128x96x4Enable &rArr; GPIOPinTypeSSI
 </UL>
 <BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysCtlPeripheralEnable
@@ -410,7 +410,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[55]"></a>RIT128x96x4DisplayOn</STRONG> (Thumb, 84 bytes, Stack size 8 bytes, rit128x96x4.o(.text), UNUSED)
+<P><STRONG><a name="[55]"></a>RIT128x96x4DisplayOn</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, rit128x96x4.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RITWriteCommand
 </UL>
 
@@ -422,11 +422,11 @@ Global Symbols
 
 <P><STRONG><a name="[5e]"></a>RIT128x96x4_ShowImage</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, rit128x96x4.o(.text), UNUSED)
 
-<P><STRONG><a name="[57]"></a>RIT128x96x4_Line</STRONG> (Thumb, 148 bytes, Stack size 48 bytes, rit128x96x4.o(.text), UNUSED)
+<P><STRONG><a name="[57]"></a>RIT128x96x4_Line</STRONG> (Thumb, 164 bytes, Stack size 48 bytes, rit128x96x4.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RIT128x96x4ImageDraw
 </UL>
 
-<P><STRONG><a name="[41]"></a>DrawClock</STRONG> (Thumb, 56 bytes, Stack size 32 bytes, graphics.o(.text))
+<P><STRONG><a name="[41]"></a>DrawClock</STRONG> (Thumb, 60 bytes, Stack size 32 bytes, graphics.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = DrawClock &rArr; RIT128x96x4ImageDraw &rArr; RITWriteData
 </UL>
 <BR>[Calls]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RIT128x96x4ImageDraw
@@ -533,7 +533,7 @@ Global Symbols
 <H3>
 Local Symbols
 </H3>
-<P><STRONG><a name="[43]"></a>RITWriteCommand</STRONG> (Thumb, 124 bytes, Stack size 16 bytes, rit128x96x4.o(.text))
+<P><STRONG><a name="[43]"></a>RITWriteCommand</STRONG> (Thumb, 128 bytes, Stack size 16 bytes, rit128x96x4.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = RITWriteCommand
 </UL>
 <BR>[Calls]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSIDataPut
@@ -548,7 +548,7 @@ Local Symbols
 <LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RIT128x96x4Clear
 </UL>
 
-<P><STRONG><a name="[47]"></a>RITWriteData</STRONG> (Thumb, 124 bytes, Stack size 16 bytes, rit128x96x4.o(.text))
+<P><STRONG><a name="[47]"></a>RITWriteData</STRONG> (Thumb, 128 bytes, Stack size 16 bytes, rit128x96x4.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = RITWriteData
 </UL>
 <BR>[Calls]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSIDataPut
