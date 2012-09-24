@@ -3,7 +3,32 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
+<<<<<<< HEAD
 C:\Users\FDukes\Documents\GitHub\EE_445L\OLED_1968\OLED.uvproj
 Project File Date:  09/23/2012
 
 <h2>Output:</h2>
+=======
+C:\Users\Kevin\Documents\GitHub\EE_445L\OLED_1968\OLED.uvproj
+Project File Date:  09/23/2012
+
+<h2>Output:</h2>
+Build target 'OLED'
+compiling rit128x96x4.c...
+rit128x96x4.c(32): error:  #5: cannot open source input file "inc/hw_ssi.h": No such file or directory
+compiling Graphics.c...
+Graphics.c(156): error:  #65: expected a ";"
+Graphics.c(261): warning:  #12-D: parsing restarts here after previous syntax error
+Graphics.c(267): error:  #20: identifier "ClockBuffer" is undefined
+Target not created
+Build target 'OLED'
+compiling rit128x96x4.c...
+rit128x96x4.c(32): error:  #5: cannot open source input file "inc/hw_ssi.h": No such file or directory
+compiling Graphics.c...
+Target not created
+Build target 'OLED'
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=2714 RO-data=8614 RW-data=12 ZI-data=7172  
+"oled.axf" - 0 Error(s), 0 Warning(s).
+>>>>>>> 9f0b0f3082ae1f66ff54a23b70f76a3326d82eec

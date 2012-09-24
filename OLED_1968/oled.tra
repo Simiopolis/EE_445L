@@ -8,13 +8,13 @@
 ### List of Objects: adding '"graphics.o"'
 ### List of Objects: adding '"..\driverlib\rvmdk\driverlib.lib"'
 ### ADS-LD Command completed:
---cpu Cortex-M3 "oledtestmain.o" "output.o" "rit128x96x4.o" "startup.o" "graphics.o" C:\Users\FDukes\Desktop\FWare\driverlib\rvmdk\driverlib.lib --library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--cpu Cortex-M3 "oledtestmain.o" "output.o" "rit128x96x4.o" "startup.o" "graphics.o" "..\driverlib\rvmdk\driverlib.lib" --library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
- --list ".\oled.map" -o oled.axf### Preparing Environment (PrepEnvAds)
+ --list ".\oled.map" -o "oled.axf"### Preparing Environment (PrepEnvAds)
 ### ADS-LD Output File: 'oled.axf'
 ### ADS-LD Command File: 'oled.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'oled.lnp', Handle=0x00000B30
+### Creating CmdFile 'oled.lnp', Handle=0x000003AC
 ### Writing '.lnp' file
 ### ADS-LD Command file 'oled.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
