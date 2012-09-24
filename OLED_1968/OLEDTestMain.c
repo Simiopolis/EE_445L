@@ -51,8 +51,15 @@
 
 int main(void){
 	RIT128x96x4Init(1000000);
-	DrawClock(87);
+	DrawMenuSetTimer(87);
 	Delay(8000000);
+	DrawMenuSetAlarm(87);
+	Delay(8000000);
+	DrawMenuToggleAlarm(87);
+	Delay(8000000);
+	DrawMenuDisplayMode(87);
+	Delay(8000000);
+
 	/*RIT128x96x4_Line(10, 20, 50, 80, 'F');
 	Delay(4000000);
 	RIT128x96x4_Line(40, 20, 60, 80, 'F');

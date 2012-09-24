@@ -3,32 +3,103 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-<<<<<<< HEAD
-C:\Users\FDukes\Documents\GitHub\EE_445L\OLED_1968\OLED.uvproj
-Project File Date:  09/23/2012
-
-<h2>Output:</h2>
-=======
 C:\Users\Kevin\Documents\GitHub\EE_445L\OLED_1968\OLED.uvproj
 Project File Date:  09/23/2012
 
 <h2>Output:</h2>
 Build target 'OLED'
 compiling rit128x96x4.c...
-rit128x96x4.c(32): error:  #5: cannot open source input file "inc/hw_ssi.h": No such file or directory
 compiling Graphics.c...
-Graphics.c(156): error:  #65: expected a ";"
-Graphics.c(261): warning:  #12-D: parsing restarts here after previous syntax error
-Graphics.c(267): error:  #20: identifier "ClockBuffer" is undefined
-Target not created
-Build target 'OLED'
-compiling rit128x96x4.c...
-rit128x96x4.c(32): error:  #5: cannot open source input file "inc/hw_ssi.h": No such file or directory
-compiling Graphics.c...
-Target not created
-Build target 'OLED'
-compiling rit128x96x4.c...
 linking...
 Program Size: Code=2714 RO-data=8614 RW-data=12 ZI-data=7172  
 "oled.axf" - 0 Error(s), 0 Warning(s).
->>>>>>> 9f0b0f3082ae1f66ff54a23b70f76a3326d82eec
+Load "C:\\Users\\Kevin\\Documents\\GitHub\\EE_445L\\OLED_1968\\oled.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling Graphics.c...
+linking...
+Program Size: Code=2778 RO-data=8614 RW-data=12 ZI-data=7172  
+"oled.axf" - 0 Error(s), 0 Warning(s).
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(54): warning:  #223-D: function "DrawMenuSetTimer" declared implicitly
+linking...
+Program Size: Code=2778 RO-data=8614 RW-data=12 ZI-data=7172  
+"oled.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Kevin\\Documents\\GitHub\\EE_445L\\OLED_1968\\oled.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling Graphics.c...
+Graphics.c(300): error:  #65: expected a ";"
+Graphics.c(405): warning:  #12-D: parsing restarts here after previous syntax error
+Graphics.c(411): error:  #20: identifier "ClockBuffer" is undefined
+Target not created
+Build target 'OLED'
+compiling Graphics.c...
+linking...
+Program Size: Code=2842 RO-data=13150 RW-data=12 ZI-data=7172  
+"oled.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Kevin\\Documents\\GitHub\\EE_445L\\OLED_1968\\oled.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(54): warning:  #223-D: function "DrawMenuSetTimer" declared implicitly
+OLEDTestMain.c(56): warning:  #223-D: function "DrawMenuSetAlarm" declared implicitly
+linking...
+Program Size: Code=2846 RO-data=13150 RW-data=12 ZI-data=7172  
+"oled.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Kevin\\Documents\\GitHub\\EE_445L\\OLED_1968\\oled.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(54): warning:  #223-D: function "DrawMenuSetTimer" declared implicitly
+OLEDTestMain.c(56): warning:  #223-D: function "DrawMenuSetAlarm" declared implicitly
+linking...
+Program Size: Code=2854 RO-data=13150 RW-data=12 ZI-data=7172  
+"oled.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Kevin\\Documents\\GitHub\\EE_445L\\OLED_1968\\oled.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling Graphics.c...
+linking...
+Program Size: Code=2918 RO-data=17686 RW-data=12 ZI-data=7172  
+"oled.axf" - 0 Error(s), 0 Warning(s).
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(54): warning:  #223-D: function "DrawMenuSetTimer" declared implicitly
+OLEDTestMain.c(56): warning:  #223-D: function "DrawMenuSetAlarm" declared implicitly
+OLEDTestMain.c(58): warning:  #223-D: function "DrawMenuToggleAlarm" declared implicitly
+compiling Graphics.c...
+Graphics.c(819): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=2994 RO-data=22218 RW-data=12 ZI-data=7172  
+"oled.axf" - 0 Error(s), 4 Warning(s).
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(54): warning:  #223-D: function "DrawMenuSetTimer" declared implicitly
+OLEDTestMain.c(56): warning:  #223-D: function "DrawMenuSetAlarm" declared implicitly
+OLEDTestMain.c(58): warning:  #223-D: function "DrawMenuToggleAlarm" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "DrawMenuDisplayMode" declared implicitly
+linking...
+Program Size: Code=3006 RO-data=22218 RW-data=12 ZI-data=7172  
+"oled.axf" - 0 Error(s), 4 Warning(s).
+Load "C:\\Users\\Kevin\\Documents\\GitHub\\EE_445L\\OLED_1968\\oled.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
