@@ -1,1 +1,0 @@
-void RIT128x96x4_DrawClock(unsigned long ypos);

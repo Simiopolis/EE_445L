@@ -1,1 +1,0 @@
-graphics.o: Graphics.c
